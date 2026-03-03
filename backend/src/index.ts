@@ -7,7 +7,7 @@ const app = new Hono();
 
 app.use('/api/v1/*', cors({
     origin: [
-        "http://localhost:5173"
+        "https://writers-hub-two.vercel.app"
     ],
     credentials: true,
     allowMethods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],

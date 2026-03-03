@@ -3,7 +3,7 @@ import { getPrisma } from '../lib/getPrisma';
 import { hash, genSalt, compare } from "bcryptjs";
 import { sign } from "hono/jwt";
 import { Variables } from "../middleware/authMiddleware";
-import { SigninInput, signinInput, SignupInput, singupInput, updateUserInput, UpdateUserInput } from "@voraakshat05/medium-blog";
+import { SigninInput, signinInput, SignupInput, singupInput, updateUserInput, UpdateUserInput } from "@voraakshat05/writers-hub";
 
 type Bindings = {
     DATABASE_URL: string

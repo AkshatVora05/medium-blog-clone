@@ -1,5 +1,5 @@
 import { useState, type ChangeEvent, type FormEvent } from "react";
-import type { SigninInput } from "@voraakshat05/medium-blog";
+import type { SigninInput } from "@voraakshat05/writers-hub";
 import { AuthHeader } from "../components/AuthHeader";
 import { LabelledInput } from "../components/LabelledInput";
 import { AuthLink } from "../components/AuthLink";

@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
-    "@voraakshat05/medium-blog": "^1.0.14",
+    "@voraakshat05/writers-hub": "^1.0.0",
     "axios": "^1.13.5",
     "dotenv": "^17.3.1",
     "flowbite": "^4.0.1",

@@ -2,7 +2,7 @@ import { publishBlogParamInput, PublishBlogInput } from './../../../common/src/i
 import { Variables } from './../middleware/authMiddleware';
 import { Context } from "hono"
 import { getPrisma } from "../lib/getPrisma"
-import { CreateBlogInput, createBlogInput, deleteBlogParamInput, getAllBlogsParamInput, getOneBlogInput, getUsersBlogsParamInput, publishBlogInput, UpdateBlogBodyInput, updateBlogBodyInput, updateBlogParamInput } from '@voraakshat05/medium-blog';
+import { CreateBlogInput, createBlogInput, deleteBlogParamInput, getAllBlogsParamInput, getOneBlogInput, getUsersBlogsParamInput, publishBlogInput, UpdateBlogBodyInput, updateBlogBodyInput, updateBlogParamInput } from '@voraakshat05/writers-hub';
 
 type Bindings = {
     DATABASE_URL: string

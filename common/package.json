@@ -1,6 +1,6 @@
 {
-  "name": "@voraakshat05/medium-blog",
-  "version": "1.0.14",
+  "name": "@voraakshat05/writers-hub",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {

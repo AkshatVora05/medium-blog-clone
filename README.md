@@ -18,4 +18,4 @@ Database:
 - Connection Pooling
 
 Shared:
-- Custom npm package (@voraakshat05/medium-blog)
+- Custom npm package (@voraakshat05/writers-hub)
