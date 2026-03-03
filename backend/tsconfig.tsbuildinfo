@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/controller/authcontroller.ts","./src/controller/blogcontroller.ts","./src/lib/getprisma.ts","./src/middleware/authmiddleware.ts","./src/routes/authroutes.ts","./src/routes/blogroutes.ts"],"errors":true,"version":"5.9.3"}
