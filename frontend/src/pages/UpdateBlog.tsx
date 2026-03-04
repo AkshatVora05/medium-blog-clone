@@ -154,7 +154,7 @@ export const UpdateBlog = () => {
         </div>
         <div className="flex flex-col mt-4">
             <div className="flex justify-center">
-                <div className="max-w-5xl w-full">
+                <div className="max-w-[90vw] w-full">
                     <input value={title} onChange={(e: ChangeEvent<HTMLInputElement>) => {
                         setTitle(e.target.value);
                     }} disabled={!isEditing} type="text" id="helper-text" aria-describedby="helper-text-explanation" className="border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 hover:border-black focus:outline-none disabled:hover:border-gray-300" placeholder="Title" />                

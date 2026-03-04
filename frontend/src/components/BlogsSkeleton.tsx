@@ -1,7 +1,7 @@
 export const BlogsSkeleton = () => {
   return (
     <div className="flex justify-center w-full">
-      <div className="w-screen max-w-3xl">
+      <div className="w-screen max-w-[80vw]">
         {[1, 2, 3, 4].map((i) => (
           <div
             key={i}

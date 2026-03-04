@@ -12,7 +12,7 @@ export const EditorSkeleton = () => {
 
       <div className="flex flex-col mt-4">
         <div className="flex justify-center">
-          <div className="max-w-5xl w-full">
+          <div className="max-w-[90vw] w-full">
             <div className="w-full h-10 rounded-lg bg-gray-200 animate-pulse" />
 
             <div className="mt-2">

@@ -13,7 +13,7 @@ export const BlogCard = ({
     content,
     publishedDate
 }: BlogCardProps) => {
-    return <div className="p-4 border-b border-slate-300 w-screen max-w-3xl">
+    return <div className="p-4 border-b border-slate-300 w-screen max-w-[80vw]">
         <div className="flex">
             <Avatar name={authorName} size="small"></Avatar> 
             <div className="ml-2 font-extralight flex flex-col justify-center"> {authorName} </div>

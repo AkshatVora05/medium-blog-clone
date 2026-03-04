@@ -176,6 +176,13 @@ export const meController = async (c: Context<{
         const prisma = getPrisma(c.env.DATABASE_URL);
         const id = c.get("userId");
 
+        if (!id) {
+            return c.json({
+                success: false,
+                message: "User ID missing"
+            }, 401);
+        }
+
         const user = await prisma.user.findUnique({
             where: {
                 id
@@ -193,6 +200,7 @@ export const meController = async (c: Context<{
         }, 200);
     }
     catch(err) {
+        console.error("ME ERROR:", err);
         return c.json({
             success: false,
             message: "Internal server error"
