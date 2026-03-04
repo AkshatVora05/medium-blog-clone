@@ -94,7 +94,7 @@ export const Signup = () => {
                 </div>
             </div>
             <div className="bg-slate-200 hidden lg:flex items-center justify-center">
-                <Quote></Quote>
+                <Quote />
             </div>
         </div>
     </>
