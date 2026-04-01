@@ -23,9 +23,10 @@ export const BlogCard = ({
         <div className="text-xl font-semibold mt-2">
             {title}
         </div>
-        <div className="font-thin">
-            {content.length > 100 ? content.substring(0, 100) + "..." : content.substring(0, 100)}
-        </div>
+        <div
+            className="prose prose-sm max-w-none line-clamp-3 font-thin text-gray-600"
+            dangerouslySetInnerHTML={{ __html: content }}
+        />
         <div className="text-slate-500 text-sm font-thin mt-4 mb-4">
             {`${Math.ceil(content.length/100)} min read`}
         </div>
