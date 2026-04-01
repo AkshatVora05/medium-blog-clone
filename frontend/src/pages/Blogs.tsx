@@ -166,12 +166,15 @@ export const Blogs = () => {
 }
 
 function getPreviewText(html: string, limit = 120) {
-    const temp = document.createElement("div");
-    temp.innerHTML = html;
+    let text = html;
 
-    let text = temp.innerText || "";
+    text = text
+        .replace(/<\/p>/gi, " ")
+        .replace(/<br\s*\/?>/gi, " ");
 
-    text = text.replace(/\n+/g, " ").trim();
+    text = text.replace(/<[^>]+>/g, "");
+
+    text = text.replace(/\s+/g, " ").trim();
 
     if (text.length > limit) {
         return text.slice(0, limit) + "...";
