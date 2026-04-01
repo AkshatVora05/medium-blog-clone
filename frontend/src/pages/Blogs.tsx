@@ -168,9 +168,7 @@ export const Blogs = () => {
 function getPreviewText(html: string, limit = 120) {
     let text = html;
 
-    text = text
-        .replace(/<\/p>/gi, " ")
-        .replace(/<br\s*\/?>/gi, " ");
+    text = text.replace(/<\/[^>]+>/g, " ");
 
     text = text.replace(/<[^>]+>/g, "");
 
